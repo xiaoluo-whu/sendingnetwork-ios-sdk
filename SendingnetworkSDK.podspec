@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   s.license      = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
 
   s.author             = { "sending.network" => "support@sending.network" }
-  s.social_media_url   = "http://twitter.com/sendingnetworkdotorg"
+  s.social_media_url   = "http://twitter.com/Sending_Network"
 
-  s.source       = { :git => "https://github.com/sending-network/sendingnetwork-ios-sdk.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/xiaoluo-whu/sendingnetwork-ios-sdk.git", :tag => "v#{s.version}" }
   
   s.requires_arc  = true
   s.swift_versions = ['5.1', '5.2']
