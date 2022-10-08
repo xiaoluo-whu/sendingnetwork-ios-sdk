@@ -20,7 +20,7 @@ abstract_target 'SendingnetworkSDK' do
     target 'SendingnetworkSDK-iOS' do
         platform :ios, '11.0'
         
-        pod 'SendingnetworkSDKCrypto', "0.1.0", :configurations => ['DEBUG']
+        pod 'MatrixSDKCrypto', "0.1.0", :configurations => ['DEBUG']
         
         target 'SendingnetworkSDKTests-iOS' do
             inherit! :search_paths
