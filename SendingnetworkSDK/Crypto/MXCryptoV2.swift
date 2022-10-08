@@ -9,7 +9,7 @@ import Foundation
 
 #if DEBUG && os(iOS)
 
-import SendingnetworkSDKCrypto
+import MatrixSDKCrypto
 
 /// A work-in-progress subclass of `MXCrypto` which uses [sendingnetwork-rust-sdk](https://github.com/sending-network/sendingnetwork-rust-sdk/tree/main/crates/sendingnetwork-sdk-crypto)
 /// under the hood.

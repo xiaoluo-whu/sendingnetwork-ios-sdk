@@ -68,7 +68,7 @@ Pod::Spec.new do |s|
   # Experimental / NOT production-ready Rust-based crypto library, iOS-only
   s.subspec 'CryptoSDK' do |ss|
     ss.platform = :ios
-    ss.dependency 'SendingnetworkSDKCrypto', '0.1.0', :configurations => ["DEBUG"]
+    ss.dependency 'MatrixSDKCrypto', '0.1.0', :configurations => ["DEBUG"]
   end
 
 end
