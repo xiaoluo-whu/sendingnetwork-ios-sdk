@@ -4,7 +4,7 @@
 //
 //  Created by Avery Pierce on 2/11/17.
 //  Copyright © 2017 sending.network. All rights reserved.
-//  Copyright 2019 The Sending.network Foundation C.I.C
+//  Copyright 2019 The Matrix.org Foundation C.I.C
 //
 
 import Foundation
